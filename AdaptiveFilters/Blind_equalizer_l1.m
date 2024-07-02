@@ -1,7 +1,7 @@
 %
 % T-spaced equalizer; Blind equalizer, l=1.
 %
-%clear all, close all
+clear all, close all
 T=0.0001; L=100; Ts=T/L; fs=1/Ts; fc=100000; 
 Dfc=0; Np=10*L; phic=0; sigma_v=0; alpha=0.25; 
 TmgPhase=1; mu=0.1;
